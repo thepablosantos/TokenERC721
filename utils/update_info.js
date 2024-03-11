@@ -60,4 +60,4 @@ if (network == NETWORK.sol) {
 }
 
 // Este script lê os dados de metadados de um projeto e atualiza os campos relevantes com base no tipo de rede (Solana ou outra). 
-// Ele também exibe mensagens informativas no console sobre as atualizações realizadas.
+// Ele também exibe mensagens informativas no console sobre as atualizações realizadas..
