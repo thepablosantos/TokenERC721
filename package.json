@@ -1,0 +1,42 @@
+{
+  "name": "contract_bank",
+  "version": "1.1.1",
+  "description": "Descrição da NFT.",
+  "main": "index.js",
+  "bin": {
+    "contract_bank": "index.js"
+  },
+  "pkg": {
+    "assets": [
+      "layers/**/*",
+      "node_modules/**/*",
+      "src/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "node index.js",
+    "generate": "node index.js",
+    "rarity": "node utils/rarity.js",
+    "preview": "node utils/preview.js",
+    "pixelate": "node utils/pixelate.js",
+    "update_info": "node utils/update_info.js",
+    "preview_gif": "node utils/preview_gif.js",
+    "generate_metadata": "node utils/generate_metadata.js"
+  },
+  "author": "Pablo Santos",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.6",
+    "canvas": "^2.11.2",
+    "ethers": "^5.7.2",
+    "gif-encoder-2": "^1.0.5",
+    "sha1": "^1.1.1",
+    "solc": "^0.8.19"
+  },
+  "devDependencies": {
+    "@eth-optimism/hardhat-ovm": "^0.2.4",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "hardhat": "^2.21.0"
+  },
+  "keywords": []
+}

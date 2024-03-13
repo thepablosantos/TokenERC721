@@ -1,0 +1,26 @@
+# Node.js
+node_modules/
+
+# Hardhat
+artifacts/
+
+# Secrets
+secrets.json
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+
+# Build
+/build/
+
+# Logs
+*.log
+
+# Cache
+.cache/
+
+# Dependências específicas do projeto
+/.env
