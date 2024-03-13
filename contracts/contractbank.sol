@@ -18,7 +18,7 @@ contract MyNFT is ERC721, Ownable {
     // Implementar funções adicionais conforme necessário
     // ...
 
-    // Função para mintar uma nova NFT
+    // Função para mintar uma nova NFT d
     function mint(address to) public onlyOwner {
         _mint(to, _tokenIdCounter.current());
         _tokenIdCounter.increment();
