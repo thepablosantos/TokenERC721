@@ -1,26 +1,20 @@
-// contracts/MyNFT.sol
-// Adapte conforme necessário
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.19;
+// Compatible with OpenZeppelin Contracts ^5.0.0
+pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/utils/Counters.sol";
 
-contract MyNFT is ERC721, Ownable {
-    using Counters for Counters.Counter;
-    Counters.Counter private _tokenIdCounter;
+contract MyToken is ERC721, Ownable {
+    uint256 private _nextTokenId;
 
-    constructor() ERC721("Contract Bank", "CNTB") {
-        // Deixe o construtor vazio por enquanto
-    }
+    constructor(address initialOwner)
+        ERC721("Contract Bank", "CNTB")
+        Ownable(initialOwner)
+    {}
 
-    // Implementar funções adicionais conforme necessário
-    // ...
-
-    // Função para mintar uma nova NFT d
-    function mint(address to) public onlyOwner {
-        _mint(to, _tokenIdCounter.current());
-        _tokenIdCounter.increment();
+    function safeMint(address to) public onlyOwner {
+        uint256 tokenId = _nextTokenId++;
+        _safeMint(to, tokenId);
     }
 }

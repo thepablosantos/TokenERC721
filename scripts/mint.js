@@ -19,7 +19,7 @@ async function main() {
   const recipientAddress = "COLOQUE_O_ENDERECO_DO_DESTINATARIO_AQUI"; // Substitua pelo endereço do destinatário
 
   // Execute o minting
-  await contractBank.mintNFT(recipientAddress);
+  await contractBank.safeMint(recipientAddress);
 
   console.log("NFT minted com sucesso!");
 }

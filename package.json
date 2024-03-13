@@ -23,8 +23,13 @@
   "author": "Pablo Santos",
   "license": "MIT",
   "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
     "canvas": "^2.8.0",
+    "dotenv": "^16.4.5",
     "gif-encoder-2": "^1.0.5",
     "sha1": "^1.1.1"
+  },
+  "devDependencies": {
+    "hardhat": "^2.21.0"
   }
 }
