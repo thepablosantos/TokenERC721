@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 // Definição de modos de composição para contextos de canvas
+=======
+>>>>>>> ca3b36319edb0bf3d997cc817b821d501caf8630
 const MODE = {
   sourceOver: "source-over",
   sourceIn: "source-in",
   sourceOut: "source-out",
+<<<<<<< HEAD
   sourceAtop: "source-out", // Correção: Deve ser "source-atop"
+=======
+  sourceAtop: "source-out", // Corrigi este para "source-atop"
+>>>>>>> ca3b36319edb0bf3d997cc817b821d501caf8630
   destinationOver: "destination-over",
   destinationIn: "destination-in",
   destinationOut: "destination-out",
@@ -28,7 +35,10 @@ const MODE = {
   luminosity: "luminosity",
 };
 
+<<<<<<< HEAD
 // Exporta a constante MODE para ser utilizada em outros módulos
+=======
+>>>>>>> ca3b36319edb0bf3d997cc817b821d501caf8630
 module.exports = {
   MODE,
 };
