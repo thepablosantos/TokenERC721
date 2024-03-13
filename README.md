@@ -92,11 +92,7 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 100,
     layersOrder: [
-      { name: "Cabeça" },
-      { name: "Boca" },
-      { name: "Olhos" },
-      { name: "Acessórios para Olhos" },
-      { name: "Acessórios para Cabeça" },
+      { name: "Background" },
     ],
   },
 ];
@@ -116,11 +112,6 @@ const layerConfigurations = [
     growEditionSizeTo: 50,
     layersOrder: [
       { name: "Plano de Fundo" },
-      { name: "Cabeça" },
-      { name: "Boca" },
-      { name: "Olhos" },
-      { name: "Acessórios para Olhos" },
-      { name: "Acessórios para Cabeça" },
     ],
   },
   {
@@ -128,12 +119,6 @@ const layerConfigurations = [
     growEditionSizeTo: 150,
     layersOrder: [
       { name: "Plano de Fundo" },
-      { name: "Cabeça" },
-      { name: "Olhos" },
-      { name: "Boca" },
-      { name: "Acessórios para Olhos" },
-      { name: "Acessórios para Cabeça" },
-      { name: "Acessórios para Cabeça Alienígena" },
     ],
   },
 ];
