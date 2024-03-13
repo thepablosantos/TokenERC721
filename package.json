@@ -1,19 +1,9 @@
 {
-<<<<<<< HEAD
-  "name": "contract_bank",
-  "version": "1.1.1",
-  "description": "Descrição da NFT.",
-  "main": "index.js",
-  "bin": {
-    "contract_bank": "index.js"
-  },
-=======
   "name": "contractbank",
   "version": "1.1.1",
   "description": "Adicionar descrição aqui",
   "main": "index.js",
   "bin": "index.js",
->>>>>>> ca3b36319edb0bf3d997cc817b821d501caf8630
   "pkg": {
     "assets": [
       "layers/**/*",
@@ -28,33 +18,13 @@
     "preview": "node utils/preview.js",
     "pixelate": "node utils/pixelate.js",
     "update_info": "node utils/update_info.js",
-<<<<<<< HEAD
-    "preview_gif": "node utils/preview_gif.js",
-=======
->>>>>>> ca3b36319edb0bf3d997cc817b821d501caf8630
     "generate_metadata": "node utils/generate_metadata.js"
   },
   "author": "Pablo Santos",
   "license": "MIT",
   "dependencies": {
-<<<<<<< HEAD
-    "@openzeppelin/contracts": "^4.9.6",
-    "canvas": "^2.11.2",
-    "ethers": "^5.7.2",
-    "gif-encoder-2": "^1.0.5",
-    "sha1": "^1.1.1",
-    "solc": "^0.8.19"
-  },
-  "devDependencies": {
-    "@eth-optimism/hardhat-ovm": "^0.2.4",
-    "@nomiclabs/hardhat-ethers": "^2.2.3",
-    "hardhat": "^2.21.0"
-  },
-  "keywords": []
-=======
     "canvas": "^2.8.0",
     "gif-encoder-2": "^1.0.5",
     "sha1": "^1.1.1"
   }
->>>>>>> ca3b36319edb0bf3d997cc817b821d501caf8630
 }
