@@ -4,7 +4,7 @@ Este projeto consiste em um contrato inteligente (smart contract) para a criaç�
 
 ## Configuração Inicial
 
-### Requisitos
+### Requisitos..
 
 - [Node.js](https://nodejs.org/) (versão 14 ou superior)
 - [Hardhat](https://hardhat.org/)
