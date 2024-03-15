@@ -1,17 +1,18 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/macbook/Downloads/contractbank/contracts/contractbank.sol": {
-      "lastModificationDate": 1710208201905,
-      "contentHash": "b212c7b52160f4b1c7580ed5e18d38f7",
+    "/home/escritha/AULAS/TokenERC721/contracts/contractbank.sol": {
+      "lastModificationDate": 1710349326791,
+      "contentHash": "743547644141609981862e54ff1f0ff5",
       "sourceName": "contracts/contractbank.sol",
       "solcConfig": {
-        "version": "0.8.19",
+        "version": "0.8.20",
         "settings": {
           "optimizer": {
             "enabled": true,
             "runs": 200
           },
+          "evmVersion": "paris",
           "outputSelection": {
             "*": {
               "*": [
@@ -30,62 +31,27 @@
       },
       "imports": [
         "@openzeppelin/contracts/token/ERC721/ERC721.sol",
-        "@openzeppelin/contracts/access/Ownable.sol",
-        "@openzeppelin/contracts/utils/Counters.sol"
+        "@openzeppelin/contracts/access/Ownable.sol"
       ],
       "versionPragmas": [
-        "^0.8.19"
+        "^0.8.20"
       ],
       "artifacts": [
-        "MyNFT"
+        "MyToken"
       ]
     },
-    "/Users/macbook/Downloads/contractbank/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
-      "lastModificationDate": 1710280357491,
-      "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
-      "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
-      "solcConfig": {
-        "version": "0.8.19",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Counters"
-      ]
-    },
-    "/Users/macbook/Downloads/contractbank/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
-      "lastModificationDate": 1710280357512,
-      "contentHash": "5a20b2cad87ddb61c7a3a6af21289e28",
+    "/home/escritha/AULAS/TokenERC721/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1710348603001,
+      "contentHash": "d3c790edc9ccf808a17c5a6cd13614fd",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
       "solcConfig": {
-        "version": "0.8.19",
+        "version": "0.8.20",
         "settings": {
           "optimizer": {
             "enabled": true,
             "runs": 200
           },
+          "evmVersion": "paris",
           "outputSelection": {
             "*": {
               "*": [
@@ -106,23 +72,24 @@
         "../utils/Context.sol"
       ],
       "versionPragmas": [
-        "^0.8.0"
+        "^0.8.20"
       ],
       "artifacts": [
         "Ownable"
       ]
     },
-    "/Users/macbook/Downloads/contractbank/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
-      "lastModificationDate": 1710280357500,
-      "contentHash": "95602b04f0b53f1139f4668d123ddeb7",
+    "/home/escritha/AULAS/TokenERC721/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
+      "lastModificationDate": 1710348602681,
+      "contentHash": "1e64e2ad597dc5b2dae11346502baad4",
       "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
       "solcConfig": {
-        "version": "0.8.19",
+        "version": "0.8.20",
         "settings": {
           "optimizer": {
             "enabled": true,
             "runs": 200
           },
+          "evmVersion": "paris",
           "outputSelection": {
             "*": {
               "*": [
@@ -143,29 +110,30 @@
         "./IERC721.sol",
         "./IERC721Receiver.sol",
         "./extensions/IERC721Metadata.sol",
-        "../../utils/Address.sol",
         "../../utils/Context.sol",
         "../../utils/Strings.sol",
-        "../../utils/introspection/ERC165.sol"
+        "../../utils/introspection/ERC165.sol",
+        "../../interfaces/draft-IERC6093.sol"
       ],
       "versionPragmas": [
-        "^0.8.0"
+        "^0.8.20"
       ],
       "artifacts": [
         "ERC721"
       ]
     },
-    "/Users/macbook/Downloads/contractbank/node_modules/@openzeppelin/contracts/utils/Context.sol": {
-      "lastModificationDate": 1710280357491,
-      "contentHash": "f07feb4a44b1a4872370da5aa70e8e46",
+    "/home/escritha/AULAS/TokenERC721/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1710348602531,
+      "contentHash": "67bfbc07588eb8683b3fd8f6f909563e",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
-        "version": "0.8.19",
+        "version": "0.8.20",
         "settings": {
           "optimizer": {
             "enabled": true,
             "runs": 200
           },
+          "evmVersion": "paris",
           "outputSelection": {
             "*": {
               "*": [
@@ -184,58 +152,24 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8.0"
+        "^0.8.20"
       ],
       "artifacts": [
         "Context"
       ]
     },
-    "/Users/macbook/Downloads/contractbank/node_modules/@openzeppelin/contracts/utils/Address.sol": {
-      "lastModificationDate": 1710280357490,
-      "contentHash": "211ffd288c1588ba8c10eae668ca3c66",
-      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
-      "solcConfig": {
-        "version": "0.8.19",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.1"
-      ],
-      "artifacts": [
-        "Address"
-      ]
-    },
-    "/Users/macbook/Downloads/contractbank/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
-      "lastModificationDate": 1710280357515,
-      "contentHash": "48686fc32a22a3754b8e63321857dd2a",
+    "/home/escritha/AULAS/TokenERC721/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
+      "lastModificationDate": 1710348603051,
+      "contentHash": "ba57ff4ddf1d9cae9d2009792795b7f6",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
       "solcConfig": {
-        "version": "0.8.19",
+        "version": "0.8.20",
         "settings": {
           "optimizer": {
             "enabled": true,
             "runs": 200
           },
+          "evmVersion": "paris",
           "outputSelection": {
             "*": {
               "*": [
@@ -257,23 +191,24 @@
         "./math/SignedMath.sol"
       ],
       "versionPragmas": [
-        "^0.8.0"
+        "^0.8.20"
       ],
       "artifacts": [
         "Strings"
       ]
     },
-    "/Users/macbook/Downloads/contractbank/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
-      "lastModificationDate": 1710280357497,
-      "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
+    "/home/escritha/AULAS/TokenERC721/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
+      "lastModificationDate": 1710348602611,
+      "contentHash": "6a55c353946e471d9792965d06208295",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
       "solcConfig": {
-        "version": "0.8.19",
+        "version": "0.8.20",
         "settings": {
           "optimizer": {
             "enabled": true,
             "runs": 200
           },
+          "evmVersion": "paris",
           "outputSelection": {
             "*": {
               "*": [
@@ -294,23 +229,24 @@
         "./IERC165.sol"
       ],
       "versionPragmas": [
-        "^0.8.0"
+        "^0.8.20"
       ],
       "artifacts": [
         "ERC165"
       ]
     },
-    "/Users/macbook/Downloads/contractbank/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
-      "lastModificationDate": 1710280357510,
-      "contentHash": "c22d4395e33763de693fd440c6fd10e1",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
+    "/home/escritha/AULAS/TokenERC721/node_modules/@openzeppelin/contracts/interfaces/draft-IERC6093.sol": {
+      "lastModificationDate": 1710348602531,
+      "contentHash": "4aefc698f77ecbace7f401257dfe182d",
+      "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC6093.sol",
       "solcConfig": {
-        "version": "0.8.19",
+        "version": "0.8.20",
         "settings": {
           "optimizer": {
             "enabled": true,
             "runs": 200
           },
+          "evmVersion": "paris",
           "outputSelection": {
             "*": {
               "*": [
@@ -329,23 +265,26 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8.0"
+        "^0.8.20"
       ],
       "artifacts": [
-        "IERC721Receiver"
+        "IERC1155Errors",
+        "IERC20Errors",
+        "IERC721Errors"
       ]
     },
-    "/Users/macbook/Downloads/contractbank/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
-      "lastModificationDate": 1710280357509,
-      "contentHash": "48de4c9a3a4ae5ef66a2aa620843413f",
+    "/home/escritha/AULAS/TokenERC721/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
+      "lastModificationDate": 1710348602941,
+      "contentHash": "5df8fdb527e563085847cad29e3c5f2e",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
       "solcConfig": {
-        "version": "0.8.19",
+        "version": "0.8.20",
         "settings": {
           "optimizer": {
             "enabled": true,
             "runs": 200
           },
+          "evmVersion": "paris",
           "outputSelection": {
             "*": {
               "*": [
@@ -366,23 +305,60 @@
         "../../utils/introspection/IERC165.sol"
       ],
       "versionPragmas": [
-        "^0.8.0"
+        "^0.8.20"
       ],
       "artifacts": [
         "IERC721"
       ]
     },
-    "/Users/macbook/Downloads/contractbank/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
-      "lastModificationDate": 1710280357510,
-      "contentHash": "efbc0d15b80a74e34dbe8da0f3e879bb",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
+    "/home/escritha/AULAS/TokenERC721/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
+      "lastModificationDate": 1710348602961,
+      "contentHash": "fc8a9841f4bdd6329c26a00d5e75f4b3",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
       "solcConfig": {
-        "version": "0.8.19",
+        "version": "0.8.20",
         "settings": {
           "optimizer": {
             "enabled": true,
             "runs": 200
           },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC721Receiver"
+      ]
+    },
+    "/home/escritha/AULAS/TokenERC721/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
+      "lastModificationDate": 1710348602951,
+      "contentHash": "12c206f185cb951213799561fdcaa40d",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
           "outputSelection": {
             "*": {
               "*": [
@@ -403,95 +379,24 @@
         "../IERC721.sol"
       ],
       "versionPragmas": [
-        "^0.8.0"
+        "^0.8.20"
       ],
       "artifacts": [
         "IERC721Metadata"
       ]
     },
-    "/Users/macbook/Downloads/contractbank/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol": {
-      "lastModificationDate": 1710208161373,
-      "contentHash": "f2ae82a09cc670ca19d644f60990b94d",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol",
-      "solcConfig": {
-        "version": "0.8.19",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../IERC721.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC721Enumerable"
-      ]
-    },
-    "/Users/macbook/Downloads/contractbank/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
-      "lastModificationDate": 1710280357508,
-      "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
-      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
-      "solcConfig": {
-        "version": "0.8.19",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC165"
-      ]
-    },
-    "/Users/macbook/Downloads/contractbank/node_modules/@openzeppelin/contracts/utils/math/Math.sol": {
-      "lastModificationDate": 1710280357512,
-      "contentHash": "fe63409d8a06818b926cf89e0ea88b1b",
+    "/home/escritha/AULAS/TokenERC721/node_modules/@openzeppelin/contracts/utils/math/Math.sol": {
+      "lastModificationDate": 1710348602981,
+      "contentHash": "718fa8ba0ff269c92e364c1429d9de57",
       "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
       "solcConfig": {
-        "version": "0.8.19",
+        "version": "0.8.20",
         "settings": {
           "optimizer": {
             "enabled": true,
             "runs": 200
           },
+          "evmVersion": "paris",
           "outputSelection": {
             "*": {
               "*": [
@@ -510,23 +415,24 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8.0"
+        "^0.8.20"
       ],
       "artifacts": [
         "Math"
       ]
     },
-    "/Users/macbook/Downloads/contractbank/node_modules/@openzeppelin/contracts/utils/math/SignedMath.sol": {
-      "lastModificationDate": 1710280357515,
-      "contentHash": "9488ebd4daacfee8ad04811600d7d061",
+    "/home/escritha/AULAS/TokenERC721/node_modules/@openzeppelin/contracts/utils/math/SignedMath.sol": {
+      "lastModificationDate": 1710348603051,
+      "contentHash": "b6c6bdc7aaca4fe5b680760a72e09d3e",
       "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
       "solcConfig": {
-        "version": "0.8.19",
+        "version": "0.8.20",
         "settings": {
           "optimizer": {
             "enabled": true,
             "runs": 200
           },
+          "evmVersion": "paris",
           "outputSelection": {
             "*": {
               "*": [
@@ -545,10 +451,46 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8.0"
+        "^0.8.20"
       ],
       "artifacts": [
         "SignedMath"
+      ]
+    },
+    "/home/escritha/AULAS/TokenERC721/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+      "lastModificationDate": 1710348602841,
+      "contentHash": "de0163561b417b800d01749cbbe2147e",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC165"
       ]
     }
   }

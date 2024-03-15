@@ -1,9 +1,9 @@
 // hardhat.config.js
-const { alchemyApiKey, privateKey } = require("./secrets.json");
+require('dotenv').config();
 
 module.exports = {
   solidity: {
-    version: "0.8.19", // Versão do compilador Solidity
+    version: "0.8.20", // Versão do compilador Solidity
     settings: {
       optimizer: {
         enabled: true,
@@ -13,13 +13,13 @@ module.exports = {
   },
   networks: {
     optimism: {
-      url: "https://opt-sepolia.g.alchemy.com/v2/1wF1Zh-xn_MWvt6b1Vuqrb5cL0-VunsZ",
-      accounts: [privateKey],
+      url: process.env.ALCHEMY_URL,
+      accounts: [process.env.PRIVATE_KEY],
     },
   },
   
   etherscan: {
-    apiKey: alchemyApiKey, // Chave da API Etherscan (opcional, se necessário)
+    apiKey: process.env.ALCHEMY_API_KEY|| "", // Chave da API Etherscan (opcional, se necessário)
   },
   paths: {
     artifacts: "./build/artifacts", 
